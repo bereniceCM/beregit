@@ -1,0 +1,186 @@
+body{
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+header .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul{
+	display: flex;
+}
+header li{
+	list-style: none;
+	margin-right: 15px;
+}
+header a{
+	text-decoration: none;
+}
+
+.contenedor{
+	max-width: 1280px;
+	width: 90%;
+	margin: auto;
+}
+header{
+	background: linear-gradient(rgba(84,93,220,.9),rgba(96,171,245,0.9)),url(../imagenes/fondo.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+#contenedor-titulo-flex{
+	display: flex;
+	justify-content: center;
+	margin: 18vh 0;
+}
+h1{
+	font-size: 60px;
+	color:#fff;
+}
+h2{
+	font-size: 25px;
+	color: #fff;
+}
+.contenedor-titulo{
+	text-align: center;
+}
+.contenedor-titulo a,#sobre-mi a{
+	font-size: 15px;
+	color: #fff;
+	background: #5cb8ff;
+	padding:14px 24px;
+	display: inline-block;
+	text-align: center;
+}
+p.logo {
+	color: #fff;
+	font-size: 20px;
+}
+nav ul li a{
+	color: #fff;
+}
+/*seccion sobre mi */
+h3{
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+#sobre-mi .contenedor-sobremi{
+	display: flex;
+	justify-content: space-around;
+}
+#sobre-mi .texto{
+	width: 42%;
+}
+/*Secccion Servicios*/
+.contenedor-servicios{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	color: #fff;
+}
+.servicio{
+	width: 24%;
+	padding: 34px 30px 38px 30px;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.servicio h4{
+	font-size: 30px;
+	margin: 0;
+}
+.servicio p{
+	margin-bottom: 20px;
+	height: 194px;
+}
+.contenedor-servicios .violeta{
+	background-image: linear-gradient(to top,#5055df, #6d68f3);
+	box-shadow: 0 12px 30px 0 rgba(80, 85, 223, 0.37);
+}
+.contenedor-servicios .celeste{
+	background-image: linear-gradient(to top,#40a8f9, #5cb8ff);
+	box-shadow: 0 12px 30px 0 rgba(86, 163, 222, 0.3);
+}
+.ondas{
+	position:absolute;
+	left: 0;
+	bottom: 0;
+}
+button.owl-prev,button.owl-next{
+	font-size: 40px !important;
+}
+span{
+	color:#71bcfa:
+}
+.contenedor-trabajar{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+#por-que-contratar-mi-servicio.items{
+	width: 28%;
+	text-align: center;
+}
+#por-que-contratar-mi-servicio ul li{
+	list-style: none;
+}
+#blog{
+	background:#F9FAFC;
+}
+#blog .contenedor-publicaciones{
+	display:flex;
+	justify-content: space-around;
+}
+#blog .publicacion{
+	width: 40%;
+	box-shadow: 1px 1px 12px #ccc;
+}
+#blog img{
+	width: 100%;
+}
+#blog .contenido{
+	background: #696969;
+	padding: 20px;
+}
+#blog h4{
+	font-size: 23px;
+	margin: 0;
+	margin-bottom: 15%;
+}
+#blog p{
+	color:#7FFFD4;
+	line-height: 24px;
+	font-size: 16px;
+}
+#blog a{
+	width: 87px;
+}
+#Contacto form{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 77%;
+	margin:auto;
+}
+input[type="text"],input[type="email"]{
+	width: 49%;
+	margin-bottom: 15px;
+	padding: 18px 0;
+	border:0;
+	border-bottom: 1px solid #5cb8ff;
+	font-size: 17px;
+}
+textarea{
+	padding: 18px 0;
+	border:0;
+	border-bottom: 1px solid #5cb8ff;
+	font-size: 17px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+#Contacto input[type="submit"]{
+	width: 166px;
+	margin: auto;
+}
